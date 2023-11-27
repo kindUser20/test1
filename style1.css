@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #1B1D3C;
+}
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.first-page {
+    background-color: #1B1D3C;
+    background-image: url("/images/car.png");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.social-media {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 80vw;
+    height: 60px;
+    width: 10vw;
+    border-radius: 0 0 10px 10px;
+    background-color: #A276ff;
+    min-width: 100px;
+}
+.img-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.fb {
+    height: 25px;
+    width: 25px;
+}
+
+.tw {
+    height: 18px;
+    width: 22px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 1;
+}
+.logo {
+    margin-top: 70px;
+    opacity: 100;
+    z-index: 3;
+}
+.bc {
+    background: #0B0B0D;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.side {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+}
+.side-bar {
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    z-index: 3;
+}
+.side-bar a {
+    margin-top: 10%;
+}
+a:first-child {
+    color: #A276FF;
+}
+.contacts {
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+a:hover{
+    color: #A276FF;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 104px;
+    margin: 0;
+}
+
+.main-template {
+    color: #A276FF;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 117px;
+}
+
+.main {
+    margin: 0;
+    padding-top: 250px;
+    padding-left: 30%;
+}
+
+.main-p {
+    width: 50vw;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.main-btn {
+    background-color: transparent;
+    border-radius: 17px;
+    border: 3px solid #FFF;
+    width: 350px;
+    height: 70px;
+    margin-top: 40px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+.main-slider {
+    display: flex;
+    margin-top: 98px;
+    flex-wrap: wrap;
+    width: 60vw;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.slider-item {
+    width: 260px;
+    height: 156px;
+    border-radius: 10px;
+}
+
+.item1 {
+    background: url(./images/1.png), lightgray 6px no-repeat;
+}
+
+.item2 {
+    background: url(./images/2.png), lightgray 6px no-repeat;
+}
+
+.item3 {
+    background: url(./images/3.png), lightgray 6px no-repeat;
+}
+
+.item4 {
+    background: url(./images/4.png), lightgray 6px no-repeat;
+}
+
+.news {
+    margin-top: 110px;
+
+}
+.news-sign {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.news p {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    width: 60vw;
+    margin-bottom:0;
+}
+.news-header {
+    display: flex;
+    align-items: start;
+    padding-right: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-family: Oswald;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Вторая страница*/
+.second-page {
+    background-color: #1B1D3C;
+    background-image: url("/images/car.png");
+    background-size: cover;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 30%;
+}
+.article {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50vw;
+    background-color: white;
+    opacity: 0.85;
+    border-radius: 40px;
+    padding: 140px 100px 30px;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+}
+
+.article p{
+    font-size: 20px;
+}
+
+.article-img {
+    text-align: center;
+}
+
+.article-img p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 0.5em;
+}
+
+hr {
+    height: 7px;
+    background-color: #A276FF;
+    width: 90px;
+    margin: 0;
+}
+
+@media (max-width:2100px){
+    a{
+        font-size: 20px;
+    }
+    .imgs {
+        width: 360px;
+    }
+}
+@media (max-width:1280px){
+    a{
+        font-size: 18px;
+    }
+    .imgs {
+        width: 320px;
+    }
+    .article{
+        flex-direction: column;
+        width: 500px;
+        text-align: center;
+    }
+    .main-slider {
+        justify-content: center;
+    }
+    hr {
+        margin: auto;
+    }
+}
+
+@media (max-width:1080px){
+    a{
+        font-size: 16px;
+    }
+    .imgs {
+        width: 280px;
+    }
+    .article{
+        width: 400px;
+    }
+    .article h2{
+        clear: right;
+    }
+}
+
+@media (max-width:720px){
+    a{
+        font-size: 14px;
+    }
+    .imgs {
+        width: 300px;
+    }
+    .article{
+        width: 500px;
+        padding: 5px;
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    .article h2{
+        clear: right;
+    }
+    .main-template {
+        font-size: 80px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+
+    .logo-img{
+        width: 120px;
+    }
+}
+
+
+@media (max-width:560px){
+    a{
+        font-size: 14px;
+    }
+    .imgs {
+        width: 300px;
+    }
+    .article{
+        width: 300px;
+    }
+    .article h2{
+        clear: right;
+    }
+    .main-template {
+        font-size: 80px;
+    }
+    .logo-img{
+        width: 80px;
+    }
+    .main-btn {
+        width: 250px;
+        margin: auto;
+    }
+    .side{
+        visibility: hidden;
+    }
+    .main {
+        padding-left: 20%;
+    }
+    .second-page {
+        padding-left: 20%;
+    }
+    .main-slider {
+        width: 80vw;
+    }
+    .social-media {
+        left: 50vw;
+    }
+}
+
+@media (max-width:480px){
+    .main {
+        padding-left: 10%;
+    }
+    .second-page {
+        padding-left: 10%;
+    }
+    .slider-item {
+        width: 230px;
+        height: 140px;
+        border: 2px solid white;
+    }
+    p, .news p
+    {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:320px){
+    .main {
+        padding-left: 5%;
+    }
+    .main-template {
+        font-size: 60px;
+    }
+    .second-page {
+        padding-left: 5%;
+    }
+    .article{
+        width: 260px;
+    }
+    .imgs {
+        width: 200px;
+    }
+}
